@@ -5,6 +5,6 @@ h1 {
     text-align: center;
 }
 .grosser-text {
-    font-size: 300px; /* Hier kannst du die Zahl ändern, um es noch größer oder kleiner zu machen */
+    font-size: 500px; /* Hier kannst du die Zahl ändern, um es noch größer oder kleiner zu machen */
     font-weight: bold; /* Macht den Text zusätzlich fett */
 }
