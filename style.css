@@ -8,3 +8,52 @@ h1 {
     font-size: 500px; /* Hier kannst du die Zahl ändern, um es noch größer oder kleiner zu machen */
     font-weight: bold; /* Macht den Text zusätzlich fett */
 }
+/* Das Formular als Box stylen, vergrößern und zentrieren */
+form {
+    background-color: white;      /* Hintergrund der Box ist weiß */
+    color: #333;                  /* Dunkle Schriftfarbe für guten Kontrast */
+    
+    /* GRÖSSE: Hier stellst du ein, wie breit das Formular sein soll */
+    width: 100%;
+    max-width: 500px;             /* Maximale Breite der Box */
+    
+    /* VERSCHIEBEN: Zentriert die Box auf der Seite */
+    margin: 50px auto;            /* 50px Abstand nach oben/unten, 'auto' zentriert es links/rechts */
+    
+    /* INNENABSTAND & ABGERUNDETE ECKEN */
+    padding: 30px;                /* Abstand zwischen Text und dem Rand der Box */
+    border-radius: 15px;          /* Macht die Ecken der Box schön rund */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Ein leichter Schatten für den 3D-Effekt */
+}
+
+/* Die Eingabefelder (Inputs) vergrößern */
+input[type="text"], 
+input[type="password"] {
+    width: 100%;                  /* Nutzt die volle Breite der Box */
+    padding: 12px;                /* Macht die Eingabefelder höher und dicker */
+    margin-top: 8px;              /* Abstand zum Label darüber */
+    margin-bottom: 20px;          /* Abstand zum nächsten Element */
+    border: 1px solid #ccc;
+    border-radius: 8px;           /* Abgerundete Ecken für die Eingabefelder */
+    font-size: 16px;              /* Größere Schrift beim Tippen */
+    box-sizing: border-box;       /* Sorgt dafür, dass das Padding die Box nicht sprengt */
+}
+
+/* Den Button vergrößern und stylen */
+button[type="submit"] {
+    width: 100%;
+    padding: 15px;                /* Macht den Button schön groß und leicht klickbar */
+    background-color: #ff4757;    /* Eine coole Button-Farbe (z.B. rot/orange) */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;              /* Größere Schrift auf dem Button */
+    font-weight: bold;
+    cursor: pointer;              /* Zeigt eine Hand beim Drüberfahren */
+    transition: background 0.2s;  /* Macht den Farbwechsel geschmeidig */
+}
+
+/* Farbe ändern, wenn man mit der Maus über den Button fährt */
+button[type="submit"]:hover {
+    background-color: #e84118;
+}
