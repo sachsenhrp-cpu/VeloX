@@ -23,7 +23,7 @@ app.post('/register', (req, res) => {
     console.log(`Neuer Spieler registriert: ${spielerName}`);
 
     // NACH der Registrierung: Weiterleitung auf die nächste Seite (z.B. erfolg.html)
-    res.redirect('/erfolg.html'); 
+    res.redirect('/home.html'); 
 });
 
 // Server starten
