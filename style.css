@@ -66,6 +66,6 @@ body {
     display: flex;             /* Hilft dabei, den Inhalt flexibel zu verteilen */
     flex-direction: column;    /* Stapelt Überschrift und Formular untereinander */
 }
+
 span {
-    font-size: 50px;
-}
+    font-size: 50px;}
