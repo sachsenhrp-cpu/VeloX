@@ -43,7 +43,7 @@ input[type="password"] {
 button[type="submit"] {
     width: 100%;
     padding: 15px;                /* Macht den Button schön groß und leicht klickbar */
-    background-color: #ff4757;    /* Eine coole Button-Farbe (z.B. rot/orange) */
+    background-color: chartreuse;    /* Eine coole Button-Farbe (z.B. rot/orange) */
     color: white;
     border: none;
     border-radius: 8px;
