@@ -55,5 +55,5 @@ button[type="submit"] {
 
 /* Farbe ändern, wenn man mit der Maus über den Button fährt */
 button[type="submit"]:hover {
-    background-color: #e84118;
+    background-color: chartreuse;
 }
