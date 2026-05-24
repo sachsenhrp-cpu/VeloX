@@ -57,3 +57,12 @@ button[type="submit"] {
 button[type="submit"]:hover {
     background-color: chartreuse;
 }
+body {
+    background-color: #537a7a; /* Deine aktuelle Hintergrundfarbe */
+    margin: 0;                 /* Entfernt unschöne Standard-Ränder */
+    
+    /* DIESE BEIDEN ZEILEN LÖSEN DAS PROBLEM: */
+    min-height: 100vh;         /* Erzwingt, dass der Hintergrund mindestens 100% der Bildschirmhöhe einnimmt */
+    display: flex;             /* Hilft dabei, den Inhalt flexibel zu verteilen */
+    flex-direction: column;    /* Stapelt Überschrift und Formular untereinander */
+}
